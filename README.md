@@ -42,10 +42,16 @@ class MainActivity : AppCompatActivity() {
 ```
 
 ```gradle
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
+```
+
+```gradle
+dependencies {
+	compile 'com.github.leonkamerlinn:NetworkStateChangeBroadcastReceiver:1.0'
+}
 ```
