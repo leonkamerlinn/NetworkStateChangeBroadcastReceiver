@@ -40,3 +40,12 @@ class MainActivity : AppCompatActivity() {
 ```xml
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 ```
+
+```gradle
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
