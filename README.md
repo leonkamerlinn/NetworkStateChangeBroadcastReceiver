@@ -1,5 +1,5 @@
 # NetworkStateChangeBroadcastReceiver
-```
+```kotlin
 class MainActivity : AppCompatActivity() {
     
     val intentFilter by lazy { IntentFilter() }
