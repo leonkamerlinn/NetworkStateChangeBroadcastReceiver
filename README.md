@@ -36,3 +36,7 @@ class MainActivity : AppCompatActivity() {
     }
 }
 ```
+
+```manifest
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+```
