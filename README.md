@@ -1,5 +1,5 @@
 # NetworkStateChangeBroadcastReceiver
-
+```
 class MainActivity : AppCompatActivity() {
     
     val intentFilter by lazy { IntentFilter() }
@@ -35,3 +35,4 @@ class MainActivity : AppCompatActivity() {
         unregisterReceiver(receiver)
     }
 }
+```
